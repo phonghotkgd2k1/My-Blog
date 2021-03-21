@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>ChuToaPhongGD</title>
+    <link rel="shortcut icon" href="img/star(1).png" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/respon.css">
+    <link rel="stylesheet" href="css/scrollBar.css">
+    <script src="js/jqr.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+        .rotate {
+            animation: spin 5s linear infinite;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <div id="header">
+        <div class="header">
+            <div class="nva-bar">
+                <div class="brand">
+                </div>
+                <div class="list">
+                    <span class='a' onclick="scrv('allProject')">Project <span>|</span> </span>
+                    <span class='a' onclick="scrv('about')">About <span>|</span> </span>
+                    <a href="https://www.facebook.com/lehong.phong.549221"><i class="fa fa-facebook-square"></i>
+                        <span>-</span> </a>
+                    <a href="https://www.instagram.com/lh_photk1xx/?hl=vi"><i class="fa fa-instagram"></i> <span>-</span> </a>
+                    <a href="phonghotk11c@gmail.com"><i class="fa fa-envelope"></i> <span>-</span> </a>
+                    <a href="https://github.com/phonghotkgd2k1"><i class="fa fa-github"></i> <span>-</span> </a>
+                    <!-- <a href="#">Contact </a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+    <script>
+        function myFunction() {
+            console.log('done')
+        }
+        </script>
+
+
+    <!-- gioithieu Section -->
+    <section id="gioithieu" class='section'>
+        <div class="container">
+            <div class="head">
+
+               
+
+                <div class="boxMusic" id='boxMusic'>
+                    <div class="pre" onclick="nextpre('pre')"><img src="img/game-console.png" alt=""></div>
+                    <figure id="control_bar">
+                        <figcaption>
+                            Đưa Em Về Nhà </figcaption>
+                        <audio id='audio' loop controls class='audioControl'>
+                            <source src="audio\hello.mp3" type="audio/mpeg">
+                        </audio>
+                    </figure>
+                    <div class="next" onclick="nextpre('next')" name="thanh"><img src="img/game-console.png" alt=""></div>
+                </div>
+
+
+
+                <div class="boxMusic" id='boxMusic'>
+                    <div class="pre" onclick="nextpre('pre')"><img src="img/game-console.png" alt=""></div>
+                    <figure id="control_bar">
+                        <figcaption>
+                            On The Ground</figcaption>
+                        <audio id='audio' loop controls class='audioControl' id='au1'>
+                            <source src="audio\y2mate.com - ROSÉ On The Ground Lyrics 로제 On The Ground 가사 Color Coded Lyrics.mp3" type="audio/mpeg">
+                        </audio>
+                    </figure>
+                    <div class="next" onclick="nextpre('next')"><img src="img/game-console.png" alt=""></div>
+                </div>
+
+                <div class="boxMusic" id='boxMusic'>
+                    <div class="pre" onclick="nextpre('pre')"><img src="img/game-console.png" alt=""></div>
+                    <figure id="control_bar">
+                        <figcaption>
+                            Thủ Đô Cypher (Remix)</figcaption>
+                        <audio id='audio' loop controls class='audioControl'>
+                            <source src="audio\y2mate.com - THỦ ĐÔ CYPHER  RPT Orijinn x Low G x RZ Ma X RPT MCK LEONN REMIX.mp3" type="audio/mpeg">
+                        </audio>
+                    </figure>
+                    <div class="next" onclick="nextpre('next')"><img src="img/game-console.png" alt=""></div>
+                </div>
+                 <div class="boxMusic" id='boxMusic'>
+                    <div class="pre" onclick="nextpre('pre')"><img src="img/game-console.png" alt=""></div>
+                    <figure id="control_bar">
+                        <figcaption>
+                            Trạm - GDucky</figcaption>
+                        <audio id='audio' loop controls class='audioControl'>
+                            <source src="audio\y2mate.com - TRẠM  GDUCKYLyric Video.mp3" type="audio/mpeg">
+                        </audio>
+                    </figure>
+                    <div class="next" onclick="nextpre('next')"><img src="img/game-console.png" alt=""></div>
+                </div>
+
+                <div class="boxMusic" id='boxMusic'>
+                    <div class="pre" onclick="nextpre('pre')"><img src="img/game-console.png" alt=""></div>
+                    <figure id="control_bar">
+                        <figcaption>
+                            Solo - Jennie</figcaption>
+                        <audio id='audio' loop controls class='audioControl'>
+                            <source src="audio\y2mate.com - JENNIE BLACKPINK  SOLO Color Coded Lyrics EngRomHan.mp3" type="audio/mpeg">
+                        </audio>
+                    </figure>
+                    <div class="next" onclick="nextpre('next')"><img src="img/game-console.png" alt=""></div>
+                </div>
+
+                <div class="boxMusic" id='boxMusic'>
+                    <div class="pre" onclick="nextpre('pre')"><img src="img/game-console.png" alt=""></div>
+                    <figure id="control_bar">
+                        <figcaption>
+                            I'm The One - Justin Bieber </figcaption>
+                        <audio id='audio' loop controls class='audioControl'>
+                            <source src="audio\y2mate.com - DJ Khaled  Im the One ft Justin Bieber Chance the Rapper Lil Wayne Lyrics  Lyric Video.mp3" type="audio/mpeg">
+                        </audio>
+                    </figure>
+                    <div class="next" onclick="nextpre('next')"><img src="img/game-console.png" alt=""></div>
+                </div>
+
+                <div class="boxMusic" id='boxMusic'>
+                    <div class="pre" onclick="nextpre('pre')"><img src="img/game-console.png" alt=""></div>
+                    <figure id="control_bar">
+                        <figcaption> Travis Scott  SICKO MODE ft Drake</figcaption>
+
+                        <audio id='audio' loop controls class='audioControl'>
+                            <source src="audio\y2mate.com - Travis Scott  SICKO MODE ft Drake Official Video.mp3" type="audio/mpeg">
+                        </audio>
+                    </figure>
+                    <div class="next" onclick="nextpre('next')"><img src="img/game-console.png" alt=""></div>
+                </div>
+
+                <div class="boxMusic" id='boxMusic'>
+                    <div class="pre" onclick="nextpre('pre')"><img src="img/game-console.png" alt=""></div>
+                    <figure id="control_bar">
+                        <figcaption>   Sunflower SpiderMan </figcaption>
+                        
+                        <audio id='audio' loop controls class='audioControl'>
+                            <source src="audio\y2mate.com - Post Malone Swae Lee  Sunflower SpiderMan Into the SpiderVerse.mp3" type="audio/mpeg">
+                        </audio>
+                    </figure>
+                    <div class="next" onclick="nextpre('next')"><img src="img/game-console.png" alt=""></div>
+                </div>
+
+               
+
+                <div class="bgGif" id='bgGif' onclick="audio()"></div>
+                <div class="BgColor" id='BgColor'></div>
+                <div class="center">
+                    <div class="img" name='img' id='img' onclick="audio()">
+                        <span id='play'>
+                            <i class="fa fa-play"></i>
+                        </span><img id='imgin' src="img/2(2).png" alt="">
+                    </div>
+                </div>
+
+
+
+
+
+                <DIV class='zIn' id='zIn'>
+                    <h1 style="font-size: 40px;margin-bottom: 20px;">Hello, Iam Chủ Tọa PhongGD<span></span>
+                        <h1>
+                            <!-- <h1> <span></span></h1> -->
+                            <h1 style="font-size: 20px;margin-bottom: 10px;"><i>Lê Hồng Phong </i> <span></span>
+                            </h1>
+
+                            <a style="font-size:25px;font-weight: 600;padding: 6px 15px;"
+                                href="https://github.com/phonghotkgd2k1" target="_blank" class="cta">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                My Git
+                            </a>
+                </DIV>
+
+                <div class="switch" onclick="switchLight()"><img src="img/switch.png" alt=""></div>
+                <div class="ab">
+                    <div class="circlelight c1" onclick="turnlight('c1')"> <img src="img/table-lamp.png" alt="">
+                    </div>
+                    <div class="circlelight c2" onclick="turnlight('c2')"> <img src="img/table-lamp.png" alt="">
+                    </div>
+                </div>
+                <div class="ab">
+                    <div class='lampl1' id='c1'></div>
+                    <div class='lampl2' id='c2'></div>
+                </div>
+                <div class="lightbottom"></div>
+                <img style="z-index: 100000;" onclick="scrv('about')" src="img/game-console.png" alt=""
+                    class='arrow arrowBot'>
+            </div>
+        </div>
+
+    </section>
+    <!-- End gioithieu Section -->
+
+
+    <!-- Service -->
+    <!-- End Service -->
+
+
+    <!-- About Me -->
+    <section class="container section" id='about'>
+        <div class="about">
+            <div class="box-out" id='box-out' data-aos="fade-up" data-aos-offset="250" data-aos-delay="300"
+                data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true">
+                <!-- data-aos="fade-up" data-aos-offset="240" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true" -->
+                <h1>About me!</h1>
+              
+                <div class='box'>
+                    <div class="box-in" id='box-in'>
+                        Chủ Tọa PhongGD, whose real name was Lê Hồng Phong. Currently, I am a web developer. I am a careful
+                        and hardworking person. I want to study and enjoy working with people. I adapt easily to
+                        work
+                        and the environment is proactive at work.
+                    </div>
+                    <div class="box-in" id='box-in'>
+                        I strongly believe that a great software engineer is a hybrid combination of
+                        technical skills as well as soft skills, which are important in communicating with customers
+                        and
+                        colleagues to reach the best result for the business.I have learned how important is to
+                        maintain
+                        the functionality while boosting the performance, reliability, flexibility, and
+                        manageability.
+ 
+                    </div>
+                    <div class="box-in" id='box-in'>
+                        I like to work in groups rather than work individually, because when working
+                        by In groups, I can support people, or vice versa, if I have a problem, I can. Thanks for
+                        everyone's help. That can improve the progress of the work up significantly.
+
+                    </div>
+                </div>
+                <!-- <i class="fa fa-angle-down arrow"></i> -->
+            </div>
+            <img onclick="scrv('allProject')" src="img/game-console.png" alt="" class='arrow arrowBot'>
+
+        </div>
+    </section>
+    <!-- End About Me -->
+
+
+    <!-- Project -->
+    <section class="container section" id='allProject'>
+        <div class="project prRight" id='pr1'>
+            <div class="leftct" data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
+                data-aos-easing="ease-in-out" data-aos-once="true">
+                <!-- data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true" -->
+                <h2>Sell Colothes Website</h2>
+                <h3>Solo project</h3>
+                <h4>Make by PHP / HTML5 / CSS3 / JAVASCRIPT</h4>
+                <table>
+                    <tr>
+                        <th colspan="2">Feature</th>
+                    </tr>
+                    <tr>
+                        <td class='r1'>Admin</td>
+                        <td class='r1'>Customer</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>add-edit product / brand / type / ...</li>
+                                <li>manage order</li>
+                                <li>Create smaller account admin ...</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>See product / found</li>
+                                <li>Setup and use own account</li>
+                                <li>Make order ...</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <div class="button">
+                    <a href="http://gtlshop.epizy.com/" target="blank" class='live dancingbt'><span>Live
+                            Demo</span></a>
+                    <a href="https://github.com/gtl-201/product1_public" target="blank"
+                        class='source dancingbt'><span>GitHub</span></a>
+                </div>
+            </div>
+            <img onclick="scrv('about')" src="img/game-console2.png" alt="" class='arrow' id='arrowPUpLeft'>
+            <img onclick="scrv('pr2')" src="img/game-console.png" alt="" class='arrow' id='arrowPDownLeft'>
+        </div>
+    </section>
+    <!-- End Project -->
+
+
+
+
+    <!-- Project 2 -->
+
+    <section class="container section">
+        <div class="project prLeft" id='pr2'>
+            <div class="rightct" data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
+                data-aos-easing="ease-in-out" data-aos-once="true">
+                <!-- data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true" -->
+                <h2>Vitual Assistant</h2>
+                <h3>Solo project</h3>
+                <h4>Make by PYTHON</h4>
+                <table>
+                    <tr>
+                        <th colspan="2">Feature</th>
+                    </tr>
+                    <tr>
+                        <td>Voice-based conputer execution</td>
+                    </tr>
+                </table>
+                <div class="button">
+                    <a href="" class='live dancingbt'><span>Live Demo</span></a>
+                    <a href="https://github.com/gtl-201/product1_public" target="blank"
+                        class='source dancingbt'><span>GitHub</span></a>
+                </div>
+            </div>
+            <img onclick="scrv('pr1')" src="img/game-console2.png" alt="" class='arrow' id='arrowPUpRight'>
+            <img onclick="scrv('pr3')" src="img/game-console.png" alt="" class='arrow' id='arrowPDownRight'>
+
+        </div>
+    </section>
+    <!-- End Project 2 -->
+
+    <!-- Project 3 -->
+    <section class="container section">
+        <div class="project prRight" id='pr3'>
+            <div class="leftct" data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
+                data-aos-easing="ease-in-out" data-aos-once="true">
+                <!-- data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true" -->
+                <h2>Mini Bar</h2>
+                <h3>Solo project</h3>
+                <h4>HTML5 + CSS3 + JS</h4>
+                <table>
+                    <tr>
+                        <th colspan="2">Feature</th>
+                    </tr>
+                    <tr>
+                        <td>Play music</td>
+                    </tr>
+                    <tr>
+                        <td>Control play - Next, Pre, mute,...</td>
+                    </tr>
+                    <tr>
+                        <td>Let Relax</td>
+                    </tr>
+                </table>
+                <div class="button">
+                    <span onclick="scrv('gioithieuplay')" href="" class='live dancingbt'><span>Live
+                            Demo</span></span>
+                    <a href="https://github.com/gtl-201/product1_public" target="blank"
+                        class='source dancingbt'><span>GitHub</span></a>
+                </div>
+            </div>
+            <img onclick="scrv('pr2')" src="img/game-console2.png" alt="" class='arrow' id='arrowPUpLeft'>
+            <img onclick="scrv('contact')" src="img/game-console.png" alt="" class='arrow' id='arrowPDownLeft'>
+
+        </div>
+    </section>
+    <!-- End Project 3 -->
+
+
+
+    <!--- Contact Info -->
+
+    <section id="contact" class="container section">
+        <div class="contact" style="position: relative;">
+            <div class="contact-header">
+                <h1><span>contact</span> info</h1>
+            </div>
+            <div class="contact-fotter">
+                <div class="contact-item">
+                    <div class="contact-img"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+                    <div class="contact-text">
+                        <h1>Phone</h1>
+                        <p>+09 788 981 42</p>
+                        <p>+09 788 981 42</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-img"><img src="https://img.icons8.com/bubbles/100/000000/email.png" /></div>
+                    <div class="contact-text">
+                        <h1>Email</h1>
+                        <p>phonghotk11c@gmail.com</p>
+                        <p>phonghotk123@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-img"><img src="https://img.icons8.com/bubbles/100/000000/map.png" /></div>
+                    <div class="contact-text">
+                        <h1>Address</h1>
+                        <p>Việt Nam</p>
+                        <p>Hà Nam</p>
+                        <p>Cường Quốc Muồn</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-fotter2">
+                <div class="hour">
+                    <h1><a href="https://drive.google.com/drive/folders/1Dau_c6La4IuhHwj9rR5DguMIQ-kLJoKw">Working Time</a></h1>
+                    <p><span>Start</span> at: 7.00 am</p>
+                    <p><span>End</span> at: 9.00 pm</p>
+                    <h2>Just do what I like</h2>
+                    <div class="rain"><img style="width: 100%;" src="gif/source.gif" alt=""></div>
+                </div>
+            </div>
+            <img onclick="scrv('gioithieu')" src="img/game-console2.png" alt="" class='arrow arrscrt'>
+        </div>
+
+
+
+        <audio id='click' hidden>
+            <source src="audio/mouse-click-clicking-single-click-3-www.FesliyanStudios.com.mp3" type="audio/mpeg">
+        </audio>
+        <audio id='bass' hidden loop>
+            <source src="audio/TriBoss  Aqua Drop Deep Bass Test.mp3" type="audio/mpeg">
+        </audio>
+
+    </section>
+
+    <!--- End Contact Info -->
+
+
+</body>
+
+</html>
+
+<script>
+    var audioControl = document.getElementsByClassName("audioControl");
+    var audioo = document.getElementsByClassName("boxMusic");
+    AOS.init();
+    var x = 0;
+    var y = 0;
+    // var MEDIA_ELEMENT_NODES = new WeakMap();
+    // context = new AudioContext();
+    // depzai = context.createAnalyser();
+    // context.createMediaElementSource(audioControl[0]).connect(depzai);
+    // depzai.connect(context.destination);
+
+    // context = new AudioContext();
+    // depzai = context.createAnalyser();
+    // context.createMediaElementSource(audioControl[1]).connect(depzai);
+    // depzai.connect(context.destination);
+
+
+
+</script>

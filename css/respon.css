@@ -1,0 +1,46 @@
+@media (max-width: 1700px) {
+  .container .about .box {
+    padding: 0 100px;
+  }
+  .container .about .box-out {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container .about .box {
+    padding: 0 60px;
+  }
+  .container .about .box-out h1 {
+    height: unset;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container .about .box {
+    padding: 0 60px;
+  }
+
+  .container .about .box-out {
+    height: 70vh;
+  }
+  .container .about .box-out h1 {
+    height: unset;
+  }
+  
+  .container .about .box .box-in {
+    font-size: 25px;
+  }
+  .container .project {
+    height: 50vh;
+    overflow: hidden;
+  }
+  .container .project .leftct {
+    height: 50vh;
+    width: 45%;
+  }
+  .rightct.aos-init.aos-animate {
+    height: 50vh;
+    width: 45%;
+  }
+}
