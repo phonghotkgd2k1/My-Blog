@@ -25,38 +25,39 @@
 </head>
 
 <body>
-<!-- Messenger Plugin chat Code -->
-<div id="fb-root"></div>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
 
-<!-- Your Plugin chat code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
 
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "355822351950224");
-  chatbox.setAttribute("attribution", "biz_inbox");
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v11.0'
-    });
-  };
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "355822351950224");
+        chatbox.setAttribute("attribution", "biz_inbox");
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v11.0'
+            });
+        };
 
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!-- Header -->
 
     <div id="header">
         <div class="header">
-            
-        
+
+
             <div class="nva-bar">
                 <div class="brand">
                 </div>
@@ -78,7 +79,7 @@
         function myFunction() {
             console.log('done')
         }
-        </script>
+    </script>
 
 
     <!-- gioithieu Section -->
@@ -86,7 +87,7 @@
         <div class="container">
             <div class="head">
 
-               
+
 
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
@@ -97,7 +98,7 @@
                             <source src="audio\hello.mp3" type="audio/mpeg">
                         </audio>
                     </figure>
-                    <div class="next" onclick="nextpre('next')" ><img src="img/4321.png" alt=""></div>
+                    <div class="next" onclick="nextpre('next')"><img src="img/4321.png" alt=""></div>
                 </div>
 
 
@@ -125,9 +126,9 @@
                     </figure>
                     <div class="next" onclick="nextpre('next')"><img src="img/4321.png" alt=""></div>
                 </div>
-               
 
-                
+
+
 
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
@@ -144,7 +145,7 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption> Travis Scott  SICKO MODE ft Drake</figcaption>
+                        <figcaption> Travis Scott SICKO MODE ft Drake</figcaption>
 
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - Travis Scott  SICKO MODE ft Drake Official Video.mp3" type="audio/mpeg">
@@ -156,8 +157,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption>   Sunflower SpiderMan </figcaption>
-                        
+                        <figcaption> Sunflower SpiderMan </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - Post Malone Swae Lee  Sunflower SpiderMan Into the SpiderVerse.mp3" type="audio/mpeg">
                         </audio>
@@ -167,8 +168,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption>  Muộn rồi mà sao còn  </figcaption>
-                        
+                        <figcaption> Muộn rồi mà sao còn </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - Muộn Rồi Mà Sao Còn   Remix   Sơn Tùng M TP   HOT TREND Tik Tok   2 0 0 4 OFFICIAL.mp3" type="audio/mpeg">
                         </audio>
@@ -178,8 +179,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption>  All Day Long  </figcaption>
-                        
+                        <figcaption> All Day Long </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - ZEA제국의아이들 하루종일All day long MV.mp3" type="audio/mpeg">
                         </audio>
@@ -189,8 +190,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption>  See You Again  </figcaption>
-                        
+                        <figcaption> See You Again </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - Wiz Khalifa  See You Again ft Charlie Puth Official Video Furious 7 Soundtrack.mp3" type="audio/mpeg">
                         </audio>
@@ -200,8 +201,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption> Xích Linh  </figcaption>
-                        
+                        <figcaption> Xích Linh </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - 赤伶  DJ版  New Ver   Xích Linh Remix  New Ver   Nhạc Hot Tik Tok Trung Quốc 2020  Douyin.mp3" type="audio/mpeg">
                         </audio>
@@ -211,8 +212,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption>  Khúc Cửu Môn Hồi Ức  </figcaption>
-                        
+                        <figcaption> Khúc Cửu Môn Hồi Ức </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - Khúc Cửu Môn Hồi Ức  Đẳng Thập Ma Quân  辞九门回忆 DJ阿超 Remix Cổ Phong TikTok.mp3" type="audio/mpeg">
                         </audio>
@@ -222,8 +223,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption>  Build A Bitch  </figcaption>
-                        
+                        <figcaption> Build A Bitch </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - Build a Btch  Bella Poarch Lyrics  Vietsub .mp3" type="audio/mpeg">
                         </audio>
@@ -233,8 +234,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption>  Naughty Boy Remix  </figcaption>
-                        
+                        <figcaption> Naughty Boy Remix </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - Nonstop Remix  Naughty Boy  La La La ft Sam Smith  Vinahouse Music No01.mp3" type="audio/mpeg">
                         </audio>
@@ -244,8 +245,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption>  Tay Trái Chỉ Trăng  </figcaption>
-                        
+                        <figcaption> Tay Trái Chỉ Trăng </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - VietsubPinyin Tay Trái Chỉ Trăng  Tát Đỉnh Đỉnh   OST Hương Mật Tựa Khói Sương.mp3" type="audio/mpeg">
                         </audio>
@@ -255,8 +256,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption>  Phương Xa  </figcaption>
-                        
+                        <figcaption> Phương Xa </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - Vietsub Phương Xa  Hồng Bố Điều  Lý Duyệt Quân  Lương Sơn Bá Chúc Anh Đài 2007 OST.mp3" type="audio/mpeg">
                         </audio>
@@ -266,8 +267,8 @@
                 <div class="boxMusic" id='boxMusic'>
                     <div class="pre" onclick="nextpre('pre')"><img src="img/4321.png" alt=""></div>
                     <figure id="control_bar">
-                        <figcaption>  Future Uchiha Itachi  </figcaption>
-                        
+                        <figcaption> Future Uchiha Itachi </figcaption>
+
                         <audio id='audio' loop controls class='audioControl'>
                             <source src="audio\y2mate.com - Future  Mask Off Marshmello Remix.mp3" type="audio/mpeg">
                         </audio>
@@ -276,7 +277,7 @@
                 </div>
 
 
-               
+
 
                 <div class="bgGif" id='bgGif' onclick="audio()"></div>
                 <div class="BgColor" id='BgColor'></div>
@@ -299,14 +300,12 @@
                             <h1 style="font-size: 20px;margin-bottom: 10px;"><i>Lê Hồng Phong </i> <span></span>
                             </h1>
 
-                            <a style="font-size:25px;font-weight: 600;padding: 6px 15px;"
-                                href="https://github.com/phonghotkgd2k1" target="_blank" class="cta">
+                            <a style="font-size:25px;font-weight: 600;padding: 6px 15px;" href="https://github.com/phonghotkgd2k1" target="_blank" class="cta">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                                <span></span>
-                                My Git
+                                <span></span> My Git
                             </a>
                 </DIV>
 
@@ -322,8 +321,7 @@
                     <div class='lampl2' id='c2'></div>
                 </div>
                 <div class="lightbottom"></div>
-                <img style="z-index: 100000;" onclick="scrv('about')" src="img/4321.png" alt=""
-                    class='arrow arrowBot'>
+                <img style="z-index: 100000;" onclick="scrv('about')" src="img/4321.png" alt="" class='arrow arrowBot'>
             </div>
         </div>
 
@@ -338,32 +336,21 @@
     <!-- About Me -->
     <section class="container section" id='about'>
         <div class="about">
-            <div class="box-out" id='box-out' data-aos="fade-up" data-aos-offset="250" data-aos-delay="300"
-                data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true">
+            <div class="box-out" id='box-out' data-aos="fade-up" data-aos-offset="250" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true">
                 <!-- data-aos="fade-up" data-aos-offset="240" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true" -->
                 <h1>About me!</h1>
-              
+
                 <div class='box'>
                     <div class="box-in" id='box-in'>
-                        Chủ Tọa PhongGD, whose real name was Lê Hồng Phong. Currently, I am a web developer. I am a careful
-                        and hardworking person. I want to study and enjoy working with people. I adapt easily to
-                        work
-                        and the environment is proactive at work.
+                        Chủ Tọa PhongGD, whose real name was Lê Hồng Phong. Currently, I am a web developer. I am a careful and hardworking person. I want to study and enjoy working with people. I adapt easily to work and the environment is proactive at work.
                     </div>
                     <div class="box-in" id='box-in'>
-                        I strongly believe that a great software engineer is a hybrid combination of
-                        technical skills as well as soft skills, which are important in communicating with customers
-                        and
-                        colleagues to reach the best result for the business.I have learned how important is to
-                        maintain
-                        the functionality while boosting the performance, reliability, flexibility, and
-                        manageability.
- 
+                        I strongly believe that a great software engineer is a hybrid combination of technical skills as well as soft skills, which are important in communicating with customers and colleagues to reach the best result for the business.I have learned how important
+                        is to maintain the functionality while boosting the performance, reliability, flexibility, and manageability.
+
                     </div>
                     <div class="box-in" id='box-in'>
-                        I like to work in groups rather than work individually, because when working
-                        by In groups, I can support people, or vice versa, if I have a problem, I can. Thanks for
-                        everyone's help. That can improve the progress of the work up significantly.
+                        I like to work in groups rather than work individually, because when working by In groups, I can support people, or vice versa, if I have a problem, I can. Thanks for everyone's help. That can improve the progress of the work up significantly.
 
                     </div>
                 </div>
@@ -379,8 +366,7 @@
     <!-- Project -->
     <section class="container section" id='allProject'>
         <div class="project prRight" id='pr1'>
-            <div class="leftct" data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
-                data-aos-easing="ease-in-out" data-aos-once="true">
+            <div class="leftct" data-aos="fade-right" data-aos-duration="700" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-once="true">
                 <!-- data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true" -->
                 <h2>Sell Colothes Website</h2>
                 <h3>Solo project</h3>
@@ -413,8 +399,7 @@
                 <div class="button">
                     <a href="http://chutoaphongd.lovestoblog.com/" target="blank" class='live dancingbt'><span>Live
                             Demo</span></a>
-                    <a href="https://github.com/phonghotkgd2k1" target="blank"
-                        class='source dancingbt'><span>GitHub</span></a>
+                    <a href="https://github.com/phonghotkgd2k1" target="blank" class='source dancingbt'><span>GitHub</span></a>
                 </div>
             </div>
             <img onclick="scrv('about')" src="img/1234.png" alt="" class='arrow' id='arrowPUpLeft'>
@@ -430,8 +415,7 @@
 
     <section class="container section">
         <div class="project prLeft" id='pr2'>
-            <div class="rightct" data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
-                data-aos-easing="ease-in-out" data-aos-once="true">
+            <div class="rightct" data-aos="fade-right" data-aos-duration="700" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-once="true">
                 <!-- data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true" -->
                 <h2>Vitual Assistant</h2>
                 <h3>Solo project</h3>
@@ -446,8 +430,7 @@
                 </table>
                 <div class="button">
                     <a href="http://chutoaphongd.lovestoblog.com/" class='live dancingbt'><span>Live Demo</span></a>
-                    <a href="#" target="blank"
-                        class='source dancingbt'><span>GitHub</span></a>
+                    <a href="#" target="blank" class='source dancingbt'><span>GitHub</span></a>
                 </div>
             </div>
             <img onclick="scrv('pr1')" src="img/1234.png" alt="" class='arrow' id='arrowPUpRight'>
@@ -460,8 +443,7 @@
     <!-- Project 3 -->
     <section class="container section">
         <div class="project prRight" id='pr3'>
-            <div class="leftct" data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
-                data-aos-easing="ease-in-out" data-aos-once="true">
+            <div class="leftct" data-aos="fade-right" data-aos-duration="700" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-once="true">
                 <!-- data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true" -->
                 <h2>Mini Bar</h2>
                 <h3>Solo project</h3>
@@ -483,8 +465,7 @@
                 <div class="button">
                     <span onclick="scrv('gioithieuplay')" href="http://chutoaphongd.lovestoblog.com/" target="blank" class='live dancingbt'><span>Live
                             Demo</span></span>
-                    <a href="#" 
-                        class='source dancingbt'><span>GitHub</span></a>target="blank"
+                    <a href="#" target="blank" class='source dancingbt'><span>GitHub</span></a>
                 </div>
             </div>
             <img onclick="scrv('pr2')" src="img/1234.png" alt="" class='arrow' id='arrowPUpLeft'>
@@ -579,7 +560,4 @@
     // depzai = context.createAnalyser();
     // context.createMediaElementSource(audioControl[1]).connect(depzai);
     // depzai.connect(context.destination);
-
-
-
 </script>
